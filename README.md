@@ -3,14 +3,13 @@ https://zoom-clone-vy.vercel.app
 
 # Zoom Clone
 
-This project is a Zoom clone built using [React](https://reactjs.org/) for the frontend and [Node.js](https://nodejs.org/) for the backend. It allows users to create and join video conferences with multiple participants, similar to the popular video conferencing application Zoom.
+This project is a Zoom clone developed using [Next.js](https://nextjs.org/) for both frontend and backend functionalities. It allows users to create and join video conferences with multiple participants, similar to the popular video conferencing application Zoom.
 
 ## Features
 
 - **User Authentication:** Users can sign up, log in, and log out using their email address and password.
 - **Create and Join Meetings:** Users can create new meetings and share the meeting link with other participants. They can also join existing meetings using a meeting link.
 - **Video Conferencing:** The application provides real-time video conferencing with support for multiple participants. Users can see and hear each other during the meeting.
-- **Chat:** Users can communicate with other participants using text chat during the meeting.
 - **Screen Sharing:** Participants can share their screens with others during the meeting.
 - **Recording:** The application supports recording of meetings for later playback.
 
@@ -58,9 +57,11 @@ To run this project locally, follow these steps:
 
 ## Technologies Used
 
-- **Frontend:** React, React Router, Socket.IO, Tailwind CSS
+- **Frontend:** NextJS, React, React Router, Socket.IO, Tailwind CSS, Shadcn/UI
 - **Backend:** Node.js, Express.js, Socket.IO
 - **Database:** MongoDB (with Mongoose)
+- **User Authentication:** Clerk Auth
+- **Video-Audio:** Stream API
 
 ## Credits
 
